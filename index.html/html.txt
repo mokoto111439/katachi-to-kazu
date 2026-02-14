@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>かたちと、かず</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+
+    <section id="step-shape" class="step active">
+      <h1>かたちと、かず</h1>
+      <p class="guide">いま、心が惹かれるものを選んでください。</p>
+
+      <div class="shapes">
+        <div class="shape circle" data-shape="circle"></div>
+        <div class="shape triangle" data-shape="triangle"></div>
+        <div class="shape square" data-shape="square"></div>
+      </div>
+    </section>
+
+    <section id="step-number" class="step">
+      <p class="guide">いまの気分に近い数を選んでください。</p>
+      <div class="numbers">
+        <button data-number="1">1</button>
+        <button data-number="2">2</button>
+        <button data-number="3">3</button>
+        <button data-number="4">4</button>
+        <button data-number="5">5</button>
+        <button data-number="6">6</button>
+        <button data-number="7">7</button>
+        <button data-number="8">8</button>
+        <button data-number="9">9</button>
+      </div>
+    </section>
+
+    <section id="step-result" class="step">
+      <p class="result-title">今のあなたへのメッセージ</p>
+      <p id="result-text"></p>
+      <button id="retry">もう一度、選び直す</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
