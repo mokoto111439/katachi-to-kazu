@@ -99,3 +99,22 @@ h1 {
   color: #8a9ba8;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+
+  .shape {
+    width: 96px;
+    height: 96px;
+  }
+
+  .triangle {
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    border-bottom: 84px solid #8a9ba8;
+  }
+
+  .shapes {
+    gap: 32px;
+  }
+
+}
